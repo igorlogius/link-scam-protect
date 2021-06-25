@@ -55,11 +55,6 @@ function warn(e) {
 			return false;
 		}
 	}
-
-	if(temporary) {
-		e.preventDefault();
-		return false;
-	}
 	return true;
 }
 
