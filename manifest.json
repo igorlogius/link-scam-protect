@@ -1,0 +1,22 @@
+{
+  "author": "igorlogius",
+  "content_scripts": [
+    {
+      "js": [
+        "content-script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "description": "warns the user when an anchor link text is a url which doesnt match the href target of the anchor",
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "link-scam-protect",
+  "permissions": [
+  ],
+  "version": "0.1.0"
+}
